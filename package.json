@@ -1,0 +1,28 @@
+{
+  "name": "wikilinklogger",
+  "version": "1.0.0",
+  "description": "\"Simple CLI application to search wiki term and log corresponding wikipedia link\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/rohitpal440/WikiLinkLogger"
+  },
+  "keywords": [
+    "wiki",
+    "search"
+  ],
+  "bin": {
+    "WikiLinkLogger": "index.js"
+  },
+  "author": "Rohit Pal",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs": "0.0.2",
+    "readline-sync": "^1.4.4",
+    "request": "^2.74.0"
+  }
+}
